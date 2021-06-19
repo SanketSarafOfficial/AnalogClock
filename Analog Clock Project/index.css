@@ -1,0 +1,51 @@
+#clockContainer
+{
+    position: relative;
+    /* border:2px solid red; */
+    margin:auto;
+    height:40vw;
+    width:40vw;
+    background: url('https://lh3.googleusercontent.com/proxy/moR1ChPA5v0khAQj2EfeehTQTRYIDO_BBiFGZqGMbZ6_6FgrPQJIns9gdVkAKM0VKcwqGzkYLtDc8lVsrCe4mVi0Mi-zqao') no-repeat;
+    background-size: 100%;
+}
+
+
+#hours, #minutes, #seconds
+{
+    position:absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hours
+{    height: 25.4%;
+    width: 1.6%;
+    top: 22%;
+    left: 48.5%;
+    /* display: none; */
+}
+
+#minutes
+{
+    height: 29.8%;
+    width: 1.5%;
+    top: 18%;
+    left: 48.5%;
+    opacity: 0.7;
+    /* display:none; */
+}
+
+
+#seconds
+{   
+    
+    height: 35%;
+    width: 1.4%;
+    top: 13%;
+    left: 48.5%;
+    opacity: 0.5;
+    /* display: none; */
+    
+
+}
